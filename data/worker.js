@@ -1,33 +1,25 @@
-var lib;
-var add;
-var stopSoc;
-var callback;
+var nativeCallback;
 try {
-    function jsCallback (data) {
-        self.postMessage(data.readString());
-    }
-
-    function runScoket() {
-        var funcType = new ctypes.FunctionType(ctypes.default_abi, ctypes.void_t, [ctypes.char.array(100)]);
+    function declareNativeMethod(nativeUrl) {
+        function jsCallback (data) {
+            self.postMessage(data.readString());
+        }
+        var lib = ctypes.open(nativeUrl);
+        var funcType = new ctypes.FunctionType(ctypes.default_abi, ctypes.void_t, [ctypes.char.ptr]);
         var funcPtrType = funcType.ptr;
-        callback = funcPtrType(jsCallback);
-        add = lib.declare("RegisterCallback", ctypes.default_abi, ctypes.void_t, funcPtrType/*, ctypes.int32_t, ctypes.int32_t*/);
+        nativeCallback = funcPtrType(jsCallback);
+        return lib.declare("RegisterCallback", ctypes.default_abi, ctypes.void_t, funcPtrType, ctypes.char.ptr);
     }
-
-    function registerDLL(nativeUrl) {
-        lib = ctypes.open(nativeUrl);
-        runScoket();
-    }
-} catch (e) {
-    dump(e);
+} catch (ex) {
+    dump("Worker Error: " + ex + "\n");
 }
 
 self.onmessage = function(messageFromClient) {
     try {
         var libUrl = messageFromClient.data;
-        registerDLL(libUrl);
-        add(callback);
-    } catch (e) {
-        dump(e+"\n");
+        var add = declareNativeMethod(libUrl);
+        add(nativeCallback, "FileFromNative.log");
+    } catch (ex) {
+        dump("Worker Error on Message Received: " + ex + "\n");
     }
 };
