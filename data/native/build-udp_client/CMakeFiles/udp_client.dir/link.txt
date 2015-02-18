@@ -1,0 +1,1 @@
+/usr/bin/clang++  -fPIC    -shared -Wl,-soname,libudp_client.so -o libudp_client.so CMakeFiles/udp_client.dir/main.cc.o /home/spandan/virtualization/karya/git/maidsafe/thirdparty/boost/boost_1_57_0_Clang_3_5_0/stage/lib/libboost_filesystem-mt.a /home/spandan/virtualization/karya/git/maidsafe/thirdparty/boost/boost_1_57_0_Clang_3_5_0/stage/lib/libboost_system-mt.a 

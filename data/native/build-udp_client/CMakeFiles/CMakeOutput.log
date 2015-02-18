@@ -1,0 +1,313 @@
+The system is: Linux - 3.13.0-44-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/clang 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/clang++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec520177928/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec520177928.dir/build.make CMakeFiles/cmTryCompileExec520177928.dir/build
+make[1]: Entering directory `/home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec520177928.dir/testCCompiler.c.o
+/usr/bin/clang    -o CMakeFiles/cmTryCompileExec520177928.dir/testCCompiler.c.o   -c /home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec520177928
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec520177928.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTryCompileExec520177928.dir/testCCompiler.c.o  -o cmTryCompileExec520177928 -rdynamic 
+make[1]: Leaving directory `/home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec786527840/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec786527840.dir/build.make CMakeFiles/cmTryCompileExec786527840.dir/build
+make[1]: Entering directory `/home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec786527840.dir/CMakeCCompilerABI.c.o
+/usr/bin/clang    -o CMakeFiles/cmTryCompileExec786527840.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec786527840
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec786527840.dir/link.txt --verbose=1
+/usr/bin/clang     -v CMakeFiles/cmTryCompileExec786527840.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec786527840 -rdynamic  
+Ubuntu clang version 3.5-1ubuntu1 (trunk) (based on LLVM 3.5)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/4.8
+Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/4.8.2
+Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/4.9
+Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/4.9.1
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8.2
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9.1
+Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/4.8
+Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/4.8.2
+Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/4.9
+Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/4.9.1
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.8
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.8.2
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9.1
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8
+Selected multilib: .;
+ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec786527840 /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/bin/../lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../.. -L/usr/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTryCompileExec786527840.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec786527840/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec786527840.dir/build.make CMakeFiles/cmTryCompileExec786527840.dir/build]
+  ignore line: [make[1]: Entering directory `/home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec786527840.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/clang    -o CMakeFiles/cmTryCompileExec786527840.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec786527840]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec786527840.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang     -v CMakeFiles/cmTryCompileExec786527840.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec786527840 -rdynamic  ]
+  ignore line: [Ubuntu clang version 3.5-1ubuntu1 (trunk) (based on LLVM 3.5)]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/4.8]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/4.8.2]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/4.9]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/4.9.1]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8.2]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9.1]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/4.8]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/4.8.2]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/4.9]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/4.9.1]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.8]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.8.2]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9.1]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8]
+  ignore line: [Selected multilib: .]
+  ignore line: []
+  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec786527840 /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/bin/../lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../.. -L/usr/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTryCompileExec786527840.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec786527840] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/bin/../lib/x86_64-linux-gnu] ==> dir [/usr/bin/../lib/x86_64-linux-gnu]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [-L/usr/bin/../lib] ==> dir [/usr/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec786527840.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/bin/../lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/bin/../lib] ==> [/usr/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1608281268/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1608281268.dir/build.make CMakeFiles/cmTryCompileExec1608281268.dir/build
+make[1]: Entering directory `/home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1608281268.dir/testCXXCompiler.cxx.o
+/usr/bin/clang++     -o CMakeFiles/cmTryCompileExec1608281268.dir/testCXXCompiler.cxx.o -c /home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1608281268
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1608281268.dir/link.txt --verbose=1
+/usr/bin/clang++        CMakeFiles/cmTryCompileExec1608281268.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1608281268 -rdynamic 
+make[1]: Leaving directory `/home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3486457642/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3486457642.dir/build.make CMakeFiles/cmTryCompileExec3486457642.dir/build
+make[1]: Entering directory `/home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3486457642.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/clang++     -o CMakeFiles/cmTryCompileExec3486457642.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3486457642
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3486457642.dir/link.txt --verbose=1
+/usr/bin/clang++      -v CMakeFiles/cmTryCompileExec3486457642.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3486457642 -rdynamic  
+Ubuntu clang version 3.5-1ubuntu1 (trunk) (based on LLVM 3.5)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/4.8
+Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/4.8.2
+Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/4.9
+Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/4.9.1
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8.2
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9.1
+Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/4.8
+Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/4.8.2
+Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/4.9
+Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/4.9.1
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.8
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.8.2
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9.1
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8
+Selected multilib: .;
+ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3486457642 /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/bin/../lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../.. -L/usr/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTryCompileExec3486457642.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3486457642/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3486457642.dir/build.make CMakeFiles/cmTryCompileExec3486457642.dir/build]
+  ignore line: [make[1]: Entering directory `/home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/spandan/virtualization/e/active/addon-sdk-1.17/spandan-test/test_3_cb_and_thread/native_code/build-udp_client/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3486457642.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/clang++     -o CMakeFiles/cmTryCompileExec3486457642.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3486457642]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3486457642.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang++      -v CMakeFiles/cmTryCompileExec3486457642.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3486457642 -rdynamic  ]
+  ignore line: [Ubuntu clang version 3.5-1ubuntu1 (trunk) (based on LLVM 3.5)]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/4.8]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/4.8.2]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/4.9]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/i686-linux-gnu/4.9.1]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8.2]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.9.1]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/4.8]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/4.8.2]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/4.9]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/i686-linux-gnu/4.9.1]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.8]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.8.2]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/4.9.1]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8]
+  ignore line: [Selected multilib: .]
+  ignore line: []
+  link line: [ "/usr/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3486457642 /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/bin/../lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../.. -L/usr/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTryCompileExec3486457642.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3486457642] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/bin/../lib/x86_64-linux-gnu] ==> dir [/usr/bin/../lib/x86_64-linux-gnu]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [-L/usr/bin/../lib] ==> dir [/usr/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec3486457642.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/bin/../lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/bin/../lib] ==> [/usr/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/lib]
+  implicit fwks: []
+
+
