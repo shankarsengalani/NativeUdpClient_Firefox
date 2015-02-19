@@ -19,7 +19,6 @@ Sample Firefox add-on which can integrate with native (c++) plugin to perform fi
 
 
 ### Prerequisites
-> To develop a add-on using Add-on SDK, you’ll need,
 * Python 2.5 or greater.
 * Firefox Add-on SDK. You can download it [here](https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials/Installation).
 * Firefox 4.0 >
