@@ -1,5 +1,5 @@
 # Sample Firefox Add-on
-Firefox extension integrated with native code (c++) using JS-Ctypes.
+> Firefox extension integrated with native code (c++) using JS-Ctypes.
 
 Sample Firefox add-on which can integrate with native (c++) plugin to perform file and networking operations.
 
@@ -19,13 +19,13 @@ Sample Firefox add-on which can integrate with native (c++) plugin to perform fi
 
 
 ### Prerequisites
-To develop a add-on using Add-on SDK, you’ll need,
+> To develop a add-on using Add-on SDK, you’ll need,
 * Python 2.5 or greater.
 * Firefox Add-on SDK. You can download it [here](https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials/Installation).
 * Firefox 4.0 >
 
 ### Installation
->Assumption Python and Firefox already installed.
+> Assumption Python and Firefox already installed.
 
 1. Extract the SDK file and store it in your local folder.
 2. Open terminal (Linux) / Command Prompt (Windows) and navigate to the SDK folder. `cd addon-sdk`
@@ -48,4 +48,4 @@ To develop a add-on using Add-on SDK, you’ll need,
 * To pack the extension, run `cfx xpi` which gives a extension installation file (__.xpi__).
 
 ##### _Note_
-* Whenever a new terminal is opened, must activate the sdk (`Follow installation step 3`), otherwise the cfx command won’t execute.
+> Whenever a new terminal is opened, must activate the sdk (`Follow installation step 3`), otherwise the cfx command won’t execute.
