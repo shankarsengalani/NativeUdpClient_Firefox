@@ -1,9 +1,11 @@
 /*
-* worker.js file act as a worker thread with the help of chrome worker implemented in updServer.js
-* It receive the message posted from the main thread (self.onmessage method ) and start executing the native
-* method 'Run'.
-* The Native method is declared within the declareNativeMethod(), along with a callback function in it.
-* After receiving the callback from the native method, the self.postMessage() post the data to the main thread.
+* worker.js file act as a worker thread to run the native methods on a separate thread.
+* Receives message posted from the main thread (using self.onmessage method ) and initiates to call the native method.
+* Native method is declared inside declareNativeMethod() method, along with a callback function in it.
+* To send a callback function to the native method, it is necessary to change the JavaScript method as
+* native function pointer using ctypes.FunctionType().
+* After declaration, the native method is called by passing the callback and filename as the parameter to it.
+* Once it receives the callback from the native method, the self.postMessage() post the data to the main thread.
 */
 var nativeCallback;
 try {
@@ -22,12 +24,12 @@ try {
     dump("Worker Error: " + ex + "\n");
 }
 
-// Get the message from the main thread and initiate the udpClient process.
+// Get the message from the main thread and run the udpClient.
 self.onmessage = function(messageFromClient) {
     try {
         var libUrl = messageFromClient.data;
-        var add = declareNativeMethod(libUrl);
-        add(nativeCallback, "FileFromNative.log");
+        var updRun = declareNativeMethod(libUrl);
+        updRun(nativeCallback, "FileFromNative.log");
     } catch (ex) {
         dump("Worker Error on Message Received: " + ex + "\n");
     }
